@@ -13,7 +13,7 @@
  In the settings part you can change the emojis for towers/mines
 
 ## Fun Facts
-This has a functional Id Checker! unlike most predictors.
+  This has a functional Id Checker! unlike most predictors.
 
 ## Created by Matheww
  Discord is FailedTrades#8984
