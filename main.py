@@ -57,43 +57,16 @@ def gentower(rows:int):
         return "Max Rows 8!"
     else:
         def pr():
-                linedone = False
-                Generating = True
-                RandomBoardNums = []
-                Board = [0,0,0]
-                FinalBoard = f''
-                CurrentLine = 0
-                c = 0
-                while Generating:
-                    c += 1
-                    if c != 8:
-                        Selection = random.randint(1,3)
-                        RandomBoardNums.append(Selection)
-                    else:
-                        Generating = False
-                for Number in RandomBoardNums:
-                    Board[Number-1] = 1
-                for Position in Board:
-                    CurrentLine += 1
-                    if CurrentLine == 4 or CurrentLine == 7 or CurrentLine == 10 or CurrentLine == 13:
-                        FinalBoard = FinalBoard+f'\n'
-                        if linedone == True:
-                            FinalBoard = FinalBoard+f'{TileTowers}'
-                        else:
-                            if Position == 1:
-                                FinalBoard = FinalBoard+f'{SafeTowers}'
-                            else:
-                                FinalBoard = FinalBoard+f'{TileTowers}'
-                        linedone = False
-                    else:
-                        if linedone == True:
-                            FinalBoard = FinalBoard+f'{TileTowers}'
-                        else:
-                            if Position == 1:
-                                FinalBoard = FinalBoard+f'{SafeTowers}'
-                            else:
-                                FinalBoard = FinalBoard+f'{TileTowers}'
-                return FinalBoard
+            rowtp1 = f"{SafeTowers}{TileTowers}{TileTowers}"
+            rowtp2 = f"{TileTowers}{SafeTowers}{TileTowers}"
+            rowtp3 = f"{TileTowers}{TileTowers}{SafeTowers}"
+            joe = random.randint(1,3)
+            if joe == 1:
+                return rowtp1
+            elif joe == 2:
+                return rowtp2
+            else:
+                return rowtp3
         leg = True
         counter = 0
         finaltower = f""
@@ -102,7 +75,7 @@ def gentower(rows:int):
                 leg = False
             else:
                 counter +=1
-                finaltower += f"{pr(counter)}\n"
+                finaltower += f"{pr()}\n"
 
         return finaltower
 
