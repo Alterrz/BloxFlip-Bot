@@ -20,5 +20,5 @@
 This has a functional Id Checker! unlike most predictors.
 
 ## Created by Matheww
- Discord is FailedTrades#0001
+ Discord is FailedTrades#8984
  Dm for Support
