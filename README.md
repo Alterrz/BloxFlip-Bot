@@ -5,13 +5,9 @@
 
 
 # Setup
-  Run The "installer.bat" File it will install all the requirements in "requirements.txt"
-  After thats done installing Open "main.py" in a TEXT EDITOR
-  If you are in "main.py" look at where settings are
-  Fill out these in the settings part
-  BOTTOKEN (your bot token)
-  SERVERID (your server id)
-  BUYERROLEID (your buyer roles id)
+  1) Run “installer.bat” - installs requirements from requirements.txt
+  2) Once finished open “main.py” with TEXT EDITOR (notepad, etc)
+  3) (in main.py) find BOTTOKEN and replace with your bot token (same thing for other settings below it)
 
 # Extras
  In the settings part you can change the emojis for towers/mines
