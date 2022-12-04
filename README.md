@@ -8,6 +8,7 @@
   1) Run “installer.bat” - installs requirements from requirements.txt
   2) Once finished open “main.py” with TEXT EDITOR (notepad, etc)
   3) (in main.py) find BOTTOKEN and replace with your bot token (same thing for other settings below it)
+  4) If you are done with that run "main.py"
 
 # Extras
  In the settings part you can change the emojis for towers/mines
