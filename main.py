@@ -14,7 +14,7 @@ BuyerRoleId = 0
 
 #StartUp
 bot = interactions.Client(
-  token=BotToken                               
+  token=MTA1MDIzNDQ1OTU0MDE3NjkzNg.G1YBct.FD8yqB5mt3Acfz39oJKtlSR35EvGIW6NUpfYaE                               
 )
 
 #defines
